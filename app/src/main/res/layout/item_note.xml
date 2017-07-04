@@ -4,6 +4,8 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="40px"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/list_note_title"
@@ -11,6 +13,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         />
     <TextView
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="10px"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/list_note_date"
@@ -18,11 +22,13 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         />
     <TextView
+        android:layout_marginLeft="80px"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="40px"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/list_note_content"
         android:text="This is the preview part"
         android:textAppearance="?android:attr/textAppearanceMedium"
         />
-
 </LinearLayout>

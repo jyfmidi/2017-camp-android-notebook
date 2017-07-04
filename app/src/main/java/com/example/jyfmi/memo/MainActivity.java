@@ -35,10 +35,6 @@ public class MainActivity extends AppCompatActivity {
             case R.id.action_main_new_note: //run NoteActivity in new note mode
                 startActivity(new Intent(this, NoteActivity.class));
                 break;
-
-//            case R.id.action_settings:
-//                //TODO show settings activity
-//                break;
         }
 
         return super.onOptionsItemSelected(item);

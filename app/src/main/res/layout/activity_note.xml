@@ -12,18 +12,23 @@
         android:layout_width="368dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="Type your title"
         android:inputType="textPersonName"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
         android:id="@+id/note_et_content"
         android:layout_width="368dp"
-        android:layout_height="338dp"
-        android:layout_marginTop="70dp"
+        android:layout_height="307dp"
+        android:layout_marginTop="75dp"
         android:ems="10"
         android:gravity="top"
-        android:inputType="textPersonName"
+        android:hint="Type your content"
+        android:inputType="text"
         app:layout_constraintTop_toTopOf="@+id/note_et_title"
         tools:layout_editor_absoluteX="8dp" />
 

@@ -64,7 +64,7 @@ public class NoteActivity extends AppCompatActivity {
         }
         else{
             AlertDialog.Builder dialog = new AlertDialog.Builder(this)
-                    .setTitle("are you sure?")
+                    .setTitle("Are you sure?")
                     .setMessage("You are about to delete "
                             + mEtTitle.getText().toString()
                             + ", are you sure?")
@@ -93,7 +93,7 @@ public class NoteActivity extends AppCompatActivity {
 
         if(mEtTitle.getText().toString().trim().isEmpty()
                 || mEtContent.getText().toString().trim().isEmpty()){
-            Toast.makeText(this,"please enter a title and a content",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Please enter a title and a content",Toast.LENGTH_SHORT).show();
             return;
         }
 
