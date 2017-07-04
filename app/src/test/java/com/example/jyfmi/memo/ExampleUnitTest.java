@@ -1,4 +1,4 @@
-package camp.baixing.com.camp_android_notebook;
+package com.example.jyfmi.memo;
 
 import org.junit.Test;
 

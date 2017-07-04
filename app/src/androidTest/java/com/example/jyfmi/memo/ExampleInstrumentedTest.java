@@ -1,4 +1,4 @@
-package camp.baixing.com.camp_android_notebook;
+package com.example.jyfmi.memo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("camp.baixing.com.camp_android_notebook", appContext.getPackageName());
+        assertEquals("com.example.jyfmi.memo", appContext.getPackageName());
     }
 }
